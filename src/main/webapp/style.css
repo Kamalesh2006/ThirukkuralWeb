@@ -1,0 +1,96 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	background-color:#0B0C10;	
+	font-family:monospace;
+}
+p{
+	line-height:1.5; 	
+}	
+p.kuralline{
+	white-space: nowrap;
+	font-size: large;
+}
+.header{
+	display:flex;
+	justify-content:center;
+	padding-bottom: 10px;
+	align-items: center;
+}
+h1{
+	margin-left:20px;
+	color:#66fcf1;
+	font-size: 50px;
+}
+.kuralsearch{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.kuralno{
+	background-color:#1f2833;
+	border: 2px solid #45a29e;
+	width: 400px;
+	height: 40px;
+	border-radius: 8px;
+	color:#66fcf1;	
+}
+.kuralno::placeholder{
+	font-size:small;
+}
+
+.kuralbox input[type="submit"]{
+	border:2px solid #45a29e;
+	color: #45a29e;
+	height:100%;
+	padding:8px 20px;
+	font-size:20px;
+	margin: 0px 4px;
+	border-radius: 8px;
+	background-color: #0b0c10;
+}
+.kuralbox input[type="submit"]:hover{
+	background-color:#45a29e;
+	color:#0b0c10;
+}
+.kuraldescription{
+	border: 2px solid #45a29e;
+	background-color:#1a4645;
+	margin:30px 10%;
+	padding:10px 20px;
+	border-radius:16px;
+	color: #c5c6c7;
+	font-size: larger;
+}
+hr{
+	border: 1px solid #45a29e;
+}
+img{
+	width: 100px;
+	object-fit:cover;
+	border-radius:50px;
+	border : 2px solid #45a29e;
+}
+.adhigarambuttondiv{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:5% 0;
+}
+button{
+	border:2px solid #45a29e;
+	color: #45a29e;
+	height:100%;
+	padding:8px 20px;
+	font-size:20px;
+	margin: 0px 4px;
+	border-radius: 8px;
+	background-color: #0b0c10;
+}
+button:hover{
+	background-color:#45a29e;
+	color:#0b0c10;
+}
